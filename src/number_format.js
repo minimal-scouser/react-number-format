@@ -1117,4 +1117,8 @@ if (process.env.NODE_ENV !== 'production') {
   };
 }
 
+function log() {
+  console.log('boom')
+}
+
 export default NumberFormat;
